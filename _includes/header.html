@@ -1,0 +1,21 @@
+<div class="ui inverted teal main menu">
+    <div class="menu">
+        <div class="right menu">
+            <a href="{{ site.repo }}" class="item">
+                <i class="github icon"></i>
+                {% t pages.contribute %}
+            </a>
+        </div>
+      <div class="ui dropdown item">
+          {% t pages.languages %} <i class="dropdown icon"></i>
+          <div class="menu">
+            <a href="/" class="item">
+                {% t languages.en %}
+            </a>
+            <a href="/sv" class="item">
+                {% t languages.sv %}
+            </a>
+          </div>
+      </div>
+    </div>
+</div>

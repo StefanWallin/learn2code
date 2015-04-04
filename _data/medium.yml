@@ -1,0 +1,28 @@
+resources:
+  - name: Rails for Zombies
+    url: http://railsforzombies.org/
+    platforms:
+        web: http://railsforzombies.org/
+    languages:
+        - en
+    age_range: 12+
+    resources:
+
+  - name: Codecademy
+    url: http://www.codecademy.com/
+    platforms:
+        web: http://www.codecademy.com/
+    languages:
+        - en
+    age_range: 12+
+    resources:
+
+  - name: Codecademy
+    url: http://guides.rubyonrails.org/getting_started.html
+    platforms:
+        mac: http://guides.rubyonrails.org/getting_started.html
+        linux: http://guides.rubyonrails.org/getting_started.html
+    languages:
+        - en
+    age_range: 12+
+    resources:

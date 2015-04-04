@@ -1,0 +1,21 @@
+languages:
+    sv: Svenska
+    en: Engelska
+pages:
+    contribute: Bidra
+    languages: Välj språk
+data_headings:
+    platforms: Platformar
+    languages: Svenska?
+    age_range: Ålder
+    resources: Extra
+levels:
+    n00b: Första gången
+    beginner: Nybörjare
+    intermediate: Lättare
+    medium: Mellansvårt
+    challenging: Utmanande
+    advanced: Avancerat
+    mastery: Mästare
+    programmer: Programmerare
+

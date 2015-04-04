@@ -1,0 +1,72 @@
+resources:
+  - name: Lego Mindstorms
+    url: http://mindstorms.lego.com
+    platforms:
+        windows: http://mindstorms.lego.com
+        mac: http://mindstorms.lego.com
+    languages:
+        - en
+        - sv
+    age_range: 7+
+    resources:
+
+  - name: Code Combat
+    url: http://codecombat.com/
+    platforms:
+        web: http://codecombat.com/
+    languages:
+        - ar
+        - bg
+        - ca
+        - cs
+        - da
+        - de
+        - el
+        - en
+        - eo
+        - es
+        - fa
+        - fi
+        - fr
+        - gl
+        - he
+        - hi
+        - hu
+        - id
+        - it
+        - ja
+        - ko
+        - lt
+        - mk
+        - ms
+        - nb
+        - nl
+        - nl
+        - nn
+        - pl
+        - pt
+        - pt
+        - ro
+        - ru
+        - sk
+        - sl
+        - sr
+        - sv
+        - th
+        - tr
+        - uk
+        - ur
+        - vi
+        - zh
+    age_range: 10+
+    resources:
+
+  - name: Minecraft Computercraft
+    url: http://www.computercraft.info
+    platforms:
+        windows: http://mindstorms.lego.com
+        mac: http://mindstorms.lego.com
+    languages:
+        - en
+    age_range: 10+
+    resources:

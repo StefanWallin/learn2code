@@ -1,0 +1,118 @@
+resources:
+  - name: A.L.E.X.
+    url: http://www.awesomeapps.com/
+    platforms:
+        android: https://play.google.com/store/apps/details?id=com.AwesomeApps.Alex
+        iphone: https://itunes.apple.com/se/app/a.l.e.x./id597040772
+        ipad: https://itunes.apple.com/se/app/a.l.e.x./id597040772
+    languages:
+        - en
+    age_range: 4+
+    resources:
+
+  - name: Lego Fix the Factory
+    url: http://www.lego.com/en-gb/mindstorms/games/fix-the-factory
+    platforms:
+        web: http://www.lego.com/en-gb/mindstorms/games/fix-the-factory
+        android: https://play.google.com/store/apps/details?id=com.lego.mindstorms.fixthefactory
+        iphone: https://itunes.apple.com/se/app/lego-mindstorms-fix-factory/id671493323
+        ipad: https://itunes.apple.com/se/app/lego-mindstorms-fix-factory/id671493323
+    languages:
+        - en
+    age_range: 4+
+    resources:
+
+  - name: Scratch Jr.
+    url: http://www.scratchjr.org/
+    platforms:
+        android: https://play.google.com/store/apps/details?id=org.scratchjr.android
+        ipad: https://itunes.apple.com/us/app/scratchjr/id895485086
+    languages:
+        - en
+    age_range: 4-8
+    resources:
+
+  - name: Lightbot Jr Puzzles
+    url: http://lightbot.com
+    platforms:
+        android: http://lightbot.com/redirect-android-jr.html
+        iphone: http://lightbot.com/redirect-ios-jr.html
+        ipad: http://lightbot.com/redirect-ios-jr.html
+        kindle: http://lightbot.com/redirect-amazon-jr.html
+    languages:
+        - en
+    age_range: 4-8
+    resources:
+
+  - name: Code.org
+    url: http://code.org
+    platforms:
+        web: http://code.org
+    languages:
+        - en
+        - sv
+        - ar
+        - az
+        - bg
+        - ca
+        - cs
+        - da
+        - de
+        - el
+        - es
+        - fa
+        - fi
+        - fr
+        - he
+        - hr
+        - hu
+        - id
+        - is
+        - it
+        - ja
+        - ko
+        - lt
+        - lv
+        - nl
+        - nn
+        - 'no'
+        - pl
+        - pt
+        - pt
+        - ro
+        - ru
+        - sl
+        - sr
+        - tr
+        - uk
+        - zh
+        - zh
+    age_range: 5+
+    resources:
+
+  - name: Scratch
+    url: https://scratch.mit.edu/
+    platforms:
+        android: https://play.google.com/store/apps/details?id=org.scratchjr.android
+        ipad: https://itunes.apple.com/us/app/scratchjr/id895485086
+    languages:
+        - en
+        - sv
+    age_range: 8+
+    resources:
+        sv: http://www.kodcentrum.festiz.com/CodeClubWorld-Projects/sv-SE/
+        sv: http://www.kodcentrum.festiz.com/CodeClubWorld-Projects/sv-SE/
+
+  - name: Lightbot Puzzles
+    url: http://lightbot.com
+    platforms:
+        android: http://lightbot.com/redirect-android.html
+        iphone: http://lightbot.com/redirect-ios.html
+        ipad: http://lightbot.com/redirect-ios.html
+        kindle: http://lightbot.com/redirect-amazon.html
+        windows: http://lightbot.com/redirect-windows.html
+        mac: http://lightbot.com/redirect-mac.html
+    languages:
+        - en
+    age_range: 9+
+    resources:

@@ -1,0 +1,21 @@
+languages:
+    sv: Swedish
+    en: English
+pages:
+    contribute: Contribute
+    languages: Choose Language
+data_headings:
+    platforms: Platforms
+    languages: English?
+    age_range: Age Range
+    resources: Extra
+levels:
+    n00b: Newbies
+    beginner: Beginners
+    intermediate: Intermediate
+    medium: Medium
+    challenging: Challenging
+    advanced: Advanced
+    mastery: Mastery
+    programmer: Programmer
+

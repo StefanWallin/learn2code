@@ -1,0 +1,32 @@
+resources:
+  - name: Khan Academy
+    url: https://www.khanacademy.org/
+    platforms:
+        web: https://www.khanacademy.org/
+    languages:
+        - en
+    age_range: 12+
+    resources:
+
+  - name: Kids Ruby
+    url: http://kidsruby.com/
+    platforms:
+        windows: http://kidsruby.com/
+        mac: http://kidsruby.com/
+        linux: http://kidsruby.com/
+    languages:
+        - en
+    age_range: 12+
+    resources:
+
+  - name: Scratch 4 Arduino
+    url: http://s4a.cat/
+    platforms:
+        windows: http://s4a.cat/
+        linux: http://s4a.cat/
+        mac: http://s4a.cat/
+    languages:
+        - en
+        - es
+    age_range: 12+
+    resources:

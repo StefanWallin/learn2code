@@ -1,0 +1,23 @@
+permalink: pretty
+markdown: kramdown
+
+title: Learn2Code.nu
+author: Stefan Wallin
+description:
+    List of resources to learn programming in different languages
+    suitable for different ages and skill levels.
+url: http://learn2code.nu
+repo: https://github.com/StefanWallin/learn2code
+img: img/logo.png
+
+languages: ["en", "sv"]
+exclude_from_localizations: ["javascript", "images", "css"]
+exclude:
+    - CNAME
+    - CONTRIBUTING.md
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - Rakefile
+    - verify.rb

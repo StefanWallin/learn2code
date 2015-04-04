@@ -1,0 +1,32 @@
+sections:
+  - id: n00b
+    title: levels.n00b
+    color: 27ae60
+
+  - id: beginner
+    title: levels.beginner
+    color: 16a085
+
+  - id: intermediate
+    title: levels.intermediate
+    color: 2980b9
+
+  - id: medium
+    title: levels.medium
+    color: 8e44ad
+
+  - id: challenging
+    title: levels.challenging
+    color: f39c12
+
+  - id: advanced
+    title: levels.advanced
+    color: d35400
+
+  - id: mastery
+    title: levels.mastery
+    color: c0392b
+
+  - id: programmer
+    title: levels.programmer
+    color: 34495e

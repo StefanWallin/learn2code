@@ -1,0 +1,138 @@
+---
+layout: default
+
+link: Tell them to support 2FA
+tweet: Security is important, @TWITTERHANDLE. We'd like it if you supported two factor auth.
+
+link_progress: Thank them for working on 2FA
+tweet_progress: Thanks for working on support for two factor auth, @TWITTERHANDLE!
+hash: SupportTwoFactorAuth
+---
+
+{% include header.html page='home' %}
+
+<div class="main container">
+    <div class="ui grid">
+        <div class="column">
+
+            <div class="banner ui icon header">
+                <i class="circular keyboard icon"></i>
+                <h2>{{site.title}}</h2>
+                <div class="sub header">List of resources that teach you to code.
+                </div>
+                <div id="{{ first.id }}" class="sub header">
+                    Add your own favorite site by submitting a pull request on the
+                    <a href="{{ site.repo }}">GitHub repo</a>.
+                </div>
+            </div>
+
+        {% for section in site.data.main.sections %}
+            <div class="section">
+                <table class="ui table celled compact segment">
+                    <thead>
+                        <tr style="background-color: #{{section.color}}">
+                            <th class="six wide"><h2><span>&#x262f;</span> {% translate section.title%}</h2></th>
+                            <th title="Web Based"><center><i class="cloud icon"></i></center></th>
+                            <th title="Android App"><center><i class="android icon"></i></center></th>
+                            <th title="Apple iPhone App"><center><i class="mobile icon"></i></center></th>
+                            <th title="Apple iPad App"><center><i class="tablet icon"></i></center></th>
+                            <th title="Amazon Kindle App"><center><i class="book basic icon"></i></center></th>
+                            <th title="Windows App"><center><i class="windows icon"></i></center></th>
+                            <th title="Mac OS App"><center><i class="apple icon"></i></center></th>
+                            <th title="Linux App"><center><i class="linux icon"></i></center></th>
+                            <th>{% translate data_headings.languages%}</th>
+                            <th>{% translate data_headings.age_range%}</th>
+                            <th>{% translate data_headings.resources%}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% comment %}
+                            Peform a downcase and sort on the list of websites to ensure the list is in
+                            alphabetical order.
+                        {% endcomment %}
+
+                        {% assign section_file = site.data[section.id] %}
+                        {% for resource in section_file.resources %}
+                            <tr>
+                                <td class="main positive">
+                                    <a href="{{ resource.url }}">{{ resource.name }}</a>
+                                </td>
+                                <td class="positive icon">
+                                    {% if resource.platforms.web %}
+                                        <a href="{{resource.platforms.web}}"><i class="checkmark icon large"></i></a>
+                                    {% endif %}
+                                </td>
+                                <td class="positive icon">
+                                    {% if resource.platforms.android %}
+                                        <a href="{{resource.platforms.android}}"><i class="checkmark icon large"></i></a>
+                                    {% endif %}
+                                </td>
+                                <td class="positive icon">
+                                    {% if resource.platforms.iphone %}
+                                        <a href="{{resource.platforms.iphone}}"><i class="checkmark icon large"></i></a>
+                                    {% endif %}
+                                </td>
+                                <td class="positive icon">
+                                    {% if resource.platforms.ipad %}
+                                        <a href="{{resource.platforms.ipad}}"><i class="checkmark icon large"></i></a>
+                                    {% endif %}
+                                </td>
+                                <td class="positive icon">
+                                    {% if resource.platforms.kindle %}
+                                        <a href="{{resource.platforms.kindle}}"><i class="checkmark icon large"></i></a>
+                                    {% endif %}
+                                </td>
+                                <td class="positive icon">
+                                    {% if resource.platforms.windows %}
+                                        <a href="{{resource.platforms.windows}}"><i class="checkmark icon large"></i></a>
+                                    {% endif %}
+                                </td>
+                                <td class="positive icon">
+                                    {% if resource.platforms.mac %}
+                                        <a href="{{resource.platforms.mac}}"><i class="checkmark icon large"></i></a>
+                                    {% endif %}
+                                </td>
+                                <td class="positive icon">
+                                    {% if resource.platforms.linux %}
+                                        <a href="{{resource.platforms.linux}}"><i class="checkmark icon large"></i></a>
+                                    {% endif %}
+                                </td>
+
+                                <td class="positive icon">
+                                    {% if resource.languages %}
+                                        {% for lang in resource.languages %}
+                                            {% if lang == site.lang %}
+                                                <i class="checkmark icon large"></i>
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endif %}
+                                </td>
+
+                                <td class="positive icon">
+                                    {% if resource.age_range %}
+                                        {{resource.age_range}}
+                                    {% endif %}
+                                </td>
+
+                                <td class="positive icon">
+                                    {% if resource.resources %}
+                                        {% for resource in resource.resources %}
+                                            [<a href="{{resource}}">{{forloop.index}}</a>]
+                                            {% unless forloop.last %},{% endunless %}
+                                        {% endfor %}
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+
+            {% unless forloop.last %}
+                <div class="ui divider" id="{{ site.data.main.sections[forloop.index].id }}" ></div>
+            {% endunless %}
+            </div><!-- Section -->
+        {% endfor %}
+
+        </div><!-- Column -->
+    </div><!-- UI Grid -->
+</div><!-- Main Container -->
