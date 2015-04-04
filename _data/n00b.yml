@@ -93,8 +93,7 @@ resources:
   - name: Scratch
     url: https://scratch.mit.edu/
     platforms:
-        android: https://play.google.com/store/apps/details?id=org.scratchjr.android
-        ipad: https://itunes.apple.com/us/app/scratchjr/id895485086
+        web: https://scratch.mit.edu/
     languages:
         - en
         - sv

@@ -10,8 +10,13 @@ url: http://learn2code.nu
 repo: https://github.com/StefanWallin/learn2code
 img: img/logo.png
 
-languages: ["en", "sv"]
-exclude_from_localizations: ["javascript", "images", "css"]
+languages:
+    - en
+    - sv
+exclude_from_localizations:
+    - javascript
+    - images
+    - css
 exclude:
     - CNAME
     - CONTRIBUTING.md
@@ -21,3 +26,5 @@ exclude:
     - README.md
     - Rakefile
     - verify.rb
+    - config.ru
+    - vendor

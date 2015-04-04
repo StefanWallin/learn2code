@@ -1,13 +1,15 @@
 source 'https://rubygems.org'
 
-ruby '2.1.1'
+ruby '2.2.1'
 
-# Freeze to GitHub Pages versions:
-#   https://pages.github.com/versions/
-gem 'github-pages', '~> 33'
+gem 'bundler'
+gem 'jekyll'
+gem 'rack-jekyll', '~> 0.4.1'
+gem 'kramdown'
 gem 'jekyll-multiple-languages-plugin'
+gem 'puma'
 
-group :test do
+group :test, :production do
   gem 'html-proofer'
   gem 'rake'
   gem 'fastimage'
