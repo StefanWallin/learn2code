@@ -117,7 +117,7 @@ hash: SupportTwoFactorAuth
                                 <td class="positive icon">
                                     {% if resource.resources %}
                                         {% for resource in resource.resources %}
-                                            [<a href="{{resource}}">{{forloop.index}}</a>]
+                                            [<a href="{{resource[1]}}">{{resource[0]}}</a>]
                                             {% unless forloop.last %},{% endunless %}
                                         {% endfor %}
                                     {% endif %}

@@ -100,7 +100,6 @@ resources:
     age_range: 8+
     resources:
         sv: http://www.kodcentrum.festiz.com/CodeClubWorld-Projects/sv-SE/
-        sv: http://www.kodcentrum.festiz.com/CodeClubWorld-Projects/sv-SE/
 
   - name: Lightbot Puzzles
     url: http://lightbot.com
