@@ -1,2 +1,18 @@
 resources:
+  - name: Code Fights
+    url: https://codefights.com/
+    platforms:
+        web: https://codefights.com/
+    languages:
+        - en
+    age_range: 12+
+    resources:
 
+  - name: Hacker Rank
+    url: https://www.hackerrank.com/
+    platforms:
+        web: https://www.hackerrank.com/
+    languages:
+        - en
+    age_range: 12+
+    resources:
