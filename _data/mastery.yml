@@ -1,2 +1,18 @@
 resources:
+  - name: Code Wars
+    url: https://www.codewars.com/
+    platforms:
+        web: https://www.codewars.com/
+    languages:
+        - en
+    age_range: 12+
+    resources:
 
+  - name: exercism.io
+    url: http://exercism.io/
+    platforms:
+        web: http://exercism.io/
+    languages:
+        - en
+    age_range: 12+
+    resources:
