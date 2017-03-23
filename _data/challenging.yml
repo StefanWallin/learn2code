@@ -9,7 +9,7 @@ resources:
         - en
     age_range: 10+
     resources:
-        - http://www.i-programmer.info/programming/android/5887-android-adventures-getting-started-with-android-studio.html
+        en: http://www.i-programmer.info/programming/android/5887-android-adventures-getting-started-with-android-studio.html
 
   - name: ReactJS
     url: https://facebook.github.io/react/docs/tutorial.html
