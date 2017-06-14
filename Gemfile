@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-ruby '2.2.1'
+ruby '2.4.1'
 
 gem 'bundler'
 gem 'jekyll'
-gem 'rack-jekyll', '~> 0.4.1'
+gem 'rack-jekyll'
 gem 'kramdown'
 gem 'jekyll-multiple-languages-plugin'
 gem 'puma'

@@ -1,18 +1,32 @@
 resources:
-  - name: Code Wars
-    url: https://www.codewars.com/
+  - name: Exercism
+    url: https://exercism.io
     platforms:
-        web: https://www.codewars.com/
+      web: https://exercism.io
     languages:
-        - en
-    age_range: 12+
-    resources:
+      - en
+    age_range: 13+
 
-  - name: exercism.io
-    url: http://exercism.io/
+  - name: Advent of Code
+    url: http://adventofcode.com/
     platforms:
-        web: http://exercism.io/
+      web: http://adventofcode.com/
     languages:
-        - en
-    age_range: 12+
-    resources:
+      - en
+    age_range: 13+
+
+  - name: Project Euler
+    url: https://projecteuler.net
+    platforms:
+      web: https://projecteuler.net
+    languages:
+      - en
+    age_range: 13+
+
+  - name: Reddit daily programmer challenge
+    url: https://www.reddit.com/r/dailyprogrammer/wiki/challenges
+    platforms:
+      web: https://www.reddit.com/r/dailyprogrammer/wiki/challenges
+    languages:
+      - en
+    age_range: 16+

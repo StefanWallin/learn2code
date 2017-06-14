@@ -25,8 +25,4 @@ sections:
 
   - id: mastery
     title: levels.mastery
-    color: c0392b
-
-  - id: programmer
-    title: levels.programmer
     color: 34495e

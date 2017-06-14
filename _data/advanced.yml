@@ -5,14 +5,45 @@ resources:
         web: https://codefights.com/
     languages:
         - en
-    age_range: 12+
+    age_range: 13+
     resources:
 
-  - name: Hacker Rank
-    url: https://www.hackerrank.com/
+  - name: CodinGame
+    url: https://www.codingame.com/start
     platforms:
-        web: https://www.hackerrank.com/
+      web: https://www.codingame.com/start
     languages:
         - en
-    age_range: 12+
+    age_range: 13+
+
+  - name: Android studio
+    url: https://developer.android.com/
+    platforms:
+        windows: https://developer.android.com/sdk/index.html
+        mac: https://developer.android.com/sdk/index.html
+        linux: https://developer.android.com/sdk/index.html
+    languages:
+        - en
+    age_range: 10+
+    resources:
+        en: http://www.i-programmer.info/programming/android/5887-android-adventures-getting-started-with-android-studio.html
+
+  - name: ReactJS
+    url: https://facebook.github.io/react/docs/tutorial.html
+    platforms:
+        linux: https://facebook.github.io/react/docs/tutorial.html
+        windows: https://facebook.github.io/react/docs/tutorial.html
+        mac: https://facebook.github.io/react/docs/tutorial.html
+    languages:
+        - en
+    age_range: 13+
+    resources:
+
+  - name: React Native
+    url: https://facebook.github.io/react-native/
+    platforms:
+        mac: https://facebook.github.io/react-native/
+    languages:
+        - en
+    age_range: 13+
     resources:

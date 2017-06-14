@@ -1,5 +1,7 @@
 permalink: pretty
 markdown: kramdown
+gems:
+  - jekyll-multiple-languages-plugin
 
 title: Learn2Code.nu
 author: Stefan Wallin

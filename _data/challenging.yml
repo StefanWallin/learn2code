@@ -1,32 +1,24 @@
 resources:
-  - name: Android studio
-    url: https://developer.android.com/
+  - name: Hacker Rank
+    url: https://www.hackerrank.com/
     platforms:
-        windows: https://developer.android.com/sdk/index.html
-        mac: https://developer.android.com/sdk/index.html
-        linux: https://developer.android.com/sdk/index.html
+        web: https://www.hackerrank.com/
     languages:
         - en
-    age_range: 10+
-    resources:
-        en: http://www.i-programmer.info/programming/android/5887-android-adventures-getting-started-with-android-studio.html
+    age_range: 13+
 
-  - name: ReactJS
-    url: https://facebook.github.io/react/docs/tutorial.html
+  - name: Code Wars
+    url: https://www.codewars.com/
     platforms:
-        linux: https://facebook.github.io/react/docs/tutorial.html
-        windows: https://facebook.github.io/react/docs/tutorial.html
-        mac: https://facebook.github.io/react/docs/tutorial.html
+        web: https://www.codewars.com/
     languages:
         - en
-    age_range: 12+
-    resources:
+    age_range: 13+
 
-  - name: React Native
-    url: https://facebook.github.io/react-native/
+  - name: Kattis
+    url: http://www.kattis.com/
     platforms:
-        mac: https://facebook.github.io/react-native/
+        web: http://www.kattis.com/
     languages:
         - en
-    age_range: 12+
-    resources:
+    age_range: 15+

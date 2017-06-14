@@ -1,4 +1,20 @@
 resources:
+  - name: Swift Playgrounds
+    url: https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=908519492&mt=8&ls=1
+    platforms:
+        ipad: https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=908519492&mt=8&ls=1
+        mac: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
+    languages:
+        - en
+        - sv
+    age_range: 9+
+    resources:
+      sv:
+        - https://www.pappasappar.se/swift-playgrounds/
+        - https://www.apple.com/se/swift/playgrounds/
+      en:
+        - https://www.apple.com/swift/playgrounds/
+
   - name: Lego Mindstorms
     url: http://mindstorms.lego.com
     platforms:
