@@ -58,7 +58,7 @@ GEM
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
-    puma (3.9.1)
+    puma (3.12.0)
     rack (1.6.11)
     rack-jekyll (0.5.0)
       jekyll (>= 1.3)
