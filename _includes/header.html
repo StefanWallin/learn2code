@@ -9,12 +9,18 @@
       <div class="ui dropdown item">
           {% t pages.languages %} <i class="dropdown icon"></i>
           <div class="menu">
-            <a href="/" class="item">
-                {% t languages.en %}
-            </a>
-            <a href="/sv" class="item">
-                {% t languages.sv %}
-            </a>
+            {% for language in site.languages %}
+              {% assign title = "languages." | append: language %}
+              {% if forloop.first %}
+                <a href="/" class="item">
+                  {% t {{title}} %}
+                </a>
+              {% else %}
+                <a href="/{{ language }}" class="item">
+                  {% t {{title}} %}
+                </a>
+              {% endif %}
+            {% endfor %}
           </div>
       </div>
     </div>
