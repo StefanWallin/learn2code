@@ -1,7 +1,0 @@
-{
-  "logging": {
-    "access": false,
-    "error": "warn"
-  },
-  "https_only": true
-}

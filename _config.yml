@@ -1,6 +1,6 @@
 permalink: pretty
 markdown: kramdown
-gems:
+plugins:
   - jekyll-multiple-languages-plugin
 
 title: Learn2Code.nu
