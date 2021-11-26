@@ -11,6 +11,8 @@ gem 'puma'
 
 group :test, :production do
   gem 'html-proofer'
+  gem 'capybara'
   gem 'rake'
+  gem "rspec", "~> 3.10"
   gem 'fastimage'
 end
