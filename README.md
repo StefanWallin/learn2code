@@ -1,12 +1,13 @@
+[![Build Status Ruby CI](https://github.com/StefanWallin/learn2code/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/StefanWallin/learn2code/actions/workflows/ci-cd.yml)
+[![Build Status Code Analysis](https://github.com/StefanWallin/learn2code/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/StefanWallin/learn2code/actions/workflows/codeql-analysis.yml)
+[![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat)](/LICENSE)
+
 Learn2Code.nu
 =============
-
-[![Build Status](http://img.shields.io/travis/jdavis/twofactorauth.svg?style=flat)](https://travis-ci.org/jdavis/twofactorauth)
-[![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat)](/LICENSE)
 A list of quality programming learning resources.
 
-## The Goal
 
+## The Goal
 The goal is to have a website with a comprehensive list of resources
 to engage, inspire and teach fundamentals behind programming
 
@@ -15,12 +16,10 @@ similar events to drive programming into new communities.
 
 
 ## Contributing
-
-If you'd like to contribute, read the entire guidelines here in
+I'd love to have your contributions to help others learn to program! Read the entire guidelines here in
 [CONTRIBUTING.md][contrib].
 
 ## License
-
 This code is distributed under the MIT license. For more info, read the
 [LICENSE][license] file distributed with the source code.
 
