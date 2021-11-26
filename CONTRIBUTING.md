@@ -12,9 +12,10 @@ are stored in folders corresponding to each of those categories in their own
 ## Guidelines
 
 1. **Don't break the build**: We have a simple continuous integration system
-   setup with [Travis][travis]. If your pull request doesn't pass, it won't be
-   merged. Travis will only check your changes after you submit a pull request.
-   If you want to test locally, instructions are listed below. Keep reading!
+   setup with [Github Actions](https://github.com/StefanWallin/learn2code/actions). 
+   If your pull request doesn't pass, it won't be merged. Github Actions will only 
+   check your changes after you submit a pull request. If you want to test locally,
+   on your own machine, instructions are listed below. Keep reading!
 2. **Use a Nice Icon**: The icon must be have a resolution of 32x32. PNG is the
    preffered format. If possible, please also run the image through an optimizing
    utility such as OptiPNG before committing it to the repo.
