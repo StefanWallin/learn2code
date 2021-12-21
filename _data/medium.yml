@@ -1,4 +1,22 @@
 resources:
+  - name: Shell scripts for beginners
+    url: https://kodekloud.com/courses/shell-scripts-for-beginners/
+    platforms:
+        web: https://kodekloud.com/courses/shell-scripts-for-beginners/
+    languages:
+        - en
+    age_range: 10+
+    resources:
+    
+  - name: Certified Associate in Python Programming
+    url: https://kodekloud.com/courses/certified-associate-in-python-programming/
+    platforms:
+        web: https://kodekloud.com/courses/certified-associate-in-python-programming/
+    languages:
+        - en
+    age_range: 10+
+    resources:
+    
   - name: Rails for Zombies
     url: http://railsforzombies.org/
     platforms:
