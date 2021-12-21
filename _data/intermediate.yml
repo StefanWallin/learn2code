@@ -31,7 +31,7 @@ resources:
     age_range: 12+
     resources:
     
-  - name: 🐧 The Linux Basics Course
+  - name: The Linux Basics Course
     url: https://kodekloud.com/courses/the-linux-basics-course/
     platforms:
         web:   https://kodekloud.com/courses/the-linux-basics-course/
