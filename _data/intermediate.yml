@@ -31,7 +31,7 @@ resources:
     age_range: 12+
     resources:
     
-  - name: Scratch 4 Arduino
+  - name: 🐧 The Linux Basics Course
     url: https://kodekloud.com/courses/the-linux-basics-course/
     platforms:
         web:   https://kodekloud.com/courses/the-linux-basics-course/
