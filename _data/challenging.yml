@@ -5,7 +5,7 @@ resources:
         web: https://www.hackerrank.com/
     languages:
         - en
-    age_range: 13+
+    age_range: 10+
 
   - name: Code Wars
     url: https://www.codewars.com/
@@ -13,7 +13,27 @@ resources:
         web: https://www.codewars.com/
     languages:
         - en
-    age_range: 13+
+    age_range: 10+
+    
+  - name: DevOps Pre-requisite - run your own server!
+    url: https://kodekloud.com/courses/devops-pre-requisite-course/
+    platforms:
+        web: https://kodekloud.com/courses/devops-pre-requisite-course/
+    languages:
+        - en
+    age_range: 10+
+  
+  - name: Docker for the absolute beginner
+    url: https://kodekloud.com/courses/docker-for-the-absolute-beginner/
+    platforms:
+        web: https://kodekloud.com/courses/docker-for-the-absolute-beginner/
+        linux: https://kodekloud.com/courses/docker-for-the-absolute-beginner/
+        mac: https://kodekloud.com/courses/docker-for-the-absolute-beginner/
+        windows: https://kodekloud.com/courses/docker-for-the-absolute-beginner/
+    languages:
+        - en
+    age_range: 10+
+
 
   - name: Kattis
     url: http://www.kattis.com/
