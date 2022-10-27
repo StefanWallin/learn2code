@@ -13,6 +13,6 @@ group :test, :production do
   gem 'html-proofer'
   gem 'capybara'
   gem 'rake'
-  gem "rspec", "~> 3.10"
+  gem "rspec", "~> 3.12"
   gem 'fastimage'
 end
